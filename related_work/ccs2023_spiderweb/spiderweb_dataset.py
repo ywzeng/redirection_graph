@@ -197,8 +197,6 @@ def construct_redirection_graph(chain_dict: dict) -> dict:
         cur_graph = [rule, graph_chain_list, graph_vertex_dict, graph_edge_list, graph_referer_set, graph_final_set]
         graph_dict[rule] = cur_graph
 
-    pprint(graph_dict)
-
     return graph_dict
 
 
